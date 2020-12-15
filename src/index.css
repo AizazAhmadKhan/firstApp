@@ -89,7 +89,19 @@ img {
   box-shadow: 0 5px #666;
   transform: translateY(6px);
 }
-.input[type=text]
+.input
+{
+  display: block;
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 420px;
+  box-sizing: border-box;
+  border: 3px solid red;
+  border-radius: 4px;
+  font-size: 18px;
+  background-color: cadetblue;
+}
+.input_1[type=text]
 {
   display: block;
   width: 40%;
